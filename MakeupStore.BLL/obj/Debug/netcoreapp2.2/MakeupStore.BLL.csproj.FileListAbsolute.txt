@@ -1,0 +1,9 @@
+/Users/dianajuarez/Projects/Project1/MakeupStore.BLL/bin/Debug/netcoreapp2.2/MakeupStore.BLL.deps.json
+/Users/dianajuarez/Projects/Project1/MakeupStore.BLL/bin/Debug/netcoreapp2.2/MakeupStore.BLL.dll
+/Users/dianajuarez/Projects/Project1/MakeupStore.BLL/bin/Debug/netcoreapp2.2/MakeupStore.BLL.pdb
+/Users/dianajuarez/Projects/Project1/MakeupStore.BLL/obj/Debug/netcoreapp2.2/MakeupStore.BLL.csproj.CoreCompileInputs.cache
+/Users/dianajuarez/Projects/Project1/MakeupStore.BLL/obj/Debug/netcoreapp2.2/MakeupStore.BLL.AssemblyInfoInputs.cache
+/Users/dianajuarez/Projects/Project1/MakeupStore.BLL/obj/Debug/netcoreapp2.2/MakeupStore.BLL.AssemblyInfo.cs
+/Users/dianajuarez/Projects/Project1/MakeupStore.BLL/obj/Debug/netcoreapp2.2/MakeupStore.BLL.dll
+/Users/dianajuarez/Projects/Project1/MakeupStore.BLL/obj/Debug/netcoreapp2.2/MakeupStore.BLL.pdb
+/Users/dianajuarez/Projects/Project1/MakeupStore.BLL/obj/Debug/netcoreapp2.2/MakeupStore.BLL.csprojAssemblyReference.cache

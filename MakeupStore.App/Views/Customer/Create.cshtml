@@ -1,0 +1,25 @@
+﻿@model MakeupStore.App.Models.Customer
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h4>Welcome and Sign Up Today !!</h4>
+
+<div>
+    <form asp-action="Display">
+        First name:<br>
+        <input asp-for="FirstName">
+        <br>
+        Last name:<br>
+        <input asp-for="LastName">
+        <br>
+        Email:<br>
+        <input asp-for="Email">
+        <br />
+        Default Store:<br />
+        <input asp-for="DefLocation">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>

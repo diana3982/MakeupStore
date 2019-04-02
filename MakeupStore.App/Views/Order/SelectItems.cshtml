@@ -1,0 +1,14 @@
+﻿@model MakeupStore.App.Models.Order
+
+@{
+    ViewData["Title"] = "SelectItems";
+}
+
+<h1>Select Your Items</h1>
+
+<div class="form-group">
+    <label asp-for="OrderLocation.StoreInventory" class="control-label"></label>
+    <select asp-for="OrderLocation.StoreInventory"
+            asp-items="@(new SelectList(Model.OrderItems, "InventoryModel", "Items"))" class="form-control"></select>
+</div>
+<input type="submit" value="Create" />

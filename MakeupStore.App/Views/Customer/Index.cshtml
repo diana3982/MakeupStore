@@ -1,0 +1,57 @@
+﻿@model IEnumerable<MakeupStore.App.Models.Customer>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h4>Here is all customer data:</h4>
+
+<div class="text-center">
+    <h1 class="display-4">Here is all the customer data: </h1>
+    <p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Id)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.LastName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Email)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.DefLocation.LocationName)
+                    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayNameFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayNameFor(modelItem => item.DefLocation.LocationName)
+                </td>
+            </tr>
+}
+            </tbody>
+        </table>
+    </p>
+</div>
